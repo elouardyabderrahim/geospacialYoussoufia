@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2f0d8f60208fe3f280788ca18b579c3b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2f0d8f60208fe3f280788ca18b579c3b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2f0d8f60208fe3f280788ca18b579c3b = L.map(
+                "map_2f0d8f60208fe3f280788ca18b579c3b",
+                {
+                    center: [32.2499466, -8.5227814],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b1b076bad7c647a1f91d5908de43c0e9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2f0d8f60208fe3f280788ca18b579c3b);
+        
+    
+            var marker_80574e39aa42f438267262eb8b624a27 = L.marker(
+                [32.2415859, -8.5371963],
+                {}
+            ).addTo(map_2f0d8f60208fe3f280788ca18b579c3b);
+        
+    
+            var icon_e32b5ad08d157ced5a7c035135627473 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_80574e39aa42f438267262eb8b624a27.setIcon(icon_e32b5ad08d157ced5a7c035135627473);
+        
+    
+        var popup_ea7b4fea660e13914e41b5725ab5fe0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77e4bc8640a911ce0adc4e9492e3eb61 = $(`<div id="html_77e4bc8640a911ce0adc4e9492e3eb61" style="width: 100.0%; height: 100.0%;"><b>Pharmacie Moderne الصيدلية الحديثة</b><br></div>`)[0];
+                popup_ea7b4fea660e13914e41b5725ab5fe0c.setContent(html_77e4bc8640a911ce0adc4e9492e3eb61);
+            
+        
+
+        marker_80574e39aa42f438267262eb8b624a27.bindPopup(popup_ea7b4fea660e13914e41b5725ab5fe0c)
+        ;
+
+        
+    
+    
+            var marker_834aec65cf6ed116d6cc391c5ed70e07 = L.marker(
+                [32.2566127, -8.5291738],
+                {}
+            ).addTo(map_2f0d8f60208fe3f280788ca18b579c3b);
+        
+    
+            var icon_44507ead536ac1b8ffd19f72ad0c558d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_834aec65cf6ed116d6cc391c5ed70e07.setIcon(icon_44507ead536ac1b8ffd19f72ad0c558d);
+        
+    
+        var popup_572ac4cac77c6947abfcf1539ad812dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34bf3dabebb1598dcf18d21740bab40f = $(`<div id="html_34bf3dabebb1598dcf18d21740bab40f" style="width: 100.0%; height: 100.0%;"><b>Pharmacie Dokkali صيدلية دكالي</b><br></div>`)[0];
+                popup_572ac4cac77c6947abfcf1539ad812dc.setContent(html_34bf3dabebb1598dcf18d21740bab40f);
+            
+        
+
+        marker_834aec65cf6ed116d6cc391c5ed70e07.bindPopup(popup_572ac4cac77c6947abfcf1539ad812dc)
+        ;
+
+        
+    
+    
+            var marker_84aae07bf78687c87b352652c921e1e9 = L.marker(
+                [32.239898, -8.5422871],
+                {}
+            ).addTo(map_2f0d8f60208fe3f280788ca18b579c3b);
+        
+    
+            var icon_5898da6333fc25eb1f9373a94c6cdf20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_84aae07bf78687c87b352652c921e1e9.setIcon(icon_5898da6333fc25eb1f9373a94c6cdf20);
+        
+    
+        var popup_fab020a77a9cc2572d780822a6a90e08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06684163ada25457c7981c105b63689a = $(`<div id="html_06684163ada25457c7981c105b63689a" style="width: 100.0%; height: 100.0%;"><b>Pharmacie Ibn Sina صيدلية ابن سينا</b><br></div>`)[0];
+                popup_fab020a77a9cc2572d780822a6a90e08.setContent(html_06684163ada25457c7981c105b63689a);
+            
+        
+
+        marker_84aae07bf78687c87b352652c921e1e9.bindPopup(popup_fab020a77a9cc2572d780822a6a90e08)
+        ;
+
+        
+    
+    
+            var marker_9ff7518f63a3ebd922428472cd898fc9 = L.marker(
+                [32.2458067, -8.5332465],
+                {}
+            ).addTo(map_2f0d8f60208fe3f280788ca18b579c3b);
+        
+    
+            var icon_43449728704a307a55540cfd736d9e8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9ff7518f63a3ebd922428472cd898fc9.setIcon(icon_43449728704a307a55540cfd736d9e8d);
+        
+    
+        var popup_8251e56cafae31138601d4d3457b4827 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b7b45e54ca7cdfe5293b7110f853b94 = $(`<div id="html_2b7b45e54ca7cdfe5293b7110f853b94" style="width: 100.0%; height: 100.0%;"><b>Pharmacie Kachkat صيدلية كاشكاط</b><br></div>`)[0];
+                popup_8251e56cafae31138601d4d3457b4827.setContent(html_2b7b45e54ca7cdfe5293b7110f853b94);
+            
+        
+
+        marker_9ff7518f63a3ebd922428472cd898fc9.bindPopup(popup_8251e56cafae31138601d4d3457b4827)
+        ;
+
+        
+    
+    
+            var marker_d0cb2fbc036383191682e06e34e0ad08 = L.marker(
+                [32.2538836, -8.5358955],
+                {}
+            ).addTo(map_2f0d8f60208fe3f280788ca18b579c3b);
+        
+    
+            var icon_816fed5ffa7e896510af8cccb08bc2ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d0cb2fbc036383191682e06e34e0ad08.setIcon(icon_816fed5ffa7e896510af8cccb08bc2ab);
+        
+    
+        var popup_03047c78edab0c0a0c0c31a326d32f46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ef8aa477a77ab0fdda0d26f9e0ad32e = $(`<div id="html_4ef8aa477a77ab0fdda0d26f9e0ad32e" style="width: 100.0%; height: 100.0%;"><b>Pharmacie Al Qods صيدلية القدس</b><br></div>`)[0];
+                popup_03047c78edab0c0a0c0c31a326d32f46.setContent(html_4ef8aa477a77ab0fdda0d26f9e0ad32e);
+            
+        
+
+        marker_d0cb2fbc036383191682e06e34e0ad08.bindPopup(popup_03047c78edab0c0a0c0c31a326d32f46)
+        ;
+
+        
+    
+    
+            var marker_6fb2194acf9672b338aa23d9d3b65bd9 = L.marker(
+                [32.237092, -8.5326451],
+                {}
+            ).addTo(map_2f0d8f60208fe3f280788ca18b579c3b);
+        
+    
+            var icon_3a2ce9909d75a39ef9d25aabacf3aa18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6fb2194acf9672b338aa23d9d3b65bd9.setIcon(icon_3a2ce9909d75a39ef9d25aabacf3aa18);
+        
+    
+        var popup_0b9a5826380042f3d4a074b09efee73c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c230ec71b241d5eea2030d76d9ae87a1 = $(`<div id="html_c230ec71b241d5eea2030d76d9ae87a1" style="width: 100.0%; height: 100.0%;"><b>Pharmacie Annour صيدلية النور</b><br></div>`)[0];
+                popup_0b9a5826380042f3d4a074b09efee73c.setContent(html_c230ec71b241d5eea2030d76d9ae87a1);
+            
+        
+
+        marker_6fb2194acf9672b338aa23d9d3b65bd9.bindPopup(popup_0b9a5826380042f3d4a074b09efee73c)
+        ;
+
+        
+    
+    
+            var marker_d4e9e3ebc6cdfd1fed85f55a972ca9c9 = L.marker(
+                [32.2489358, -8.532388],
+                {}
+            ).addTo(map_2f0d8f60208fe3f280788ca18b579c3b);
+        
+    
+            var icon_e5b73443960ba7d912d18b5e4303fe2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d4e9e3ebc6cdfd1fed85f55a972ca9c9.setIcon(icon_e5b73443960ba7d912d18b5e4303fe2d);
+        
+    
+        var popup_9b45d1dd73f873b2f13352b08140d5c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41109faf77b66f88aebe24b7a8e72f98 = $(`<div id="html_41109faf77b66f88aebe24b7a8e72f98" style="width: 100.0%; height: 100.0%;"><b>Pharmacie Lahdir صيدلية لهضير</b><br></div>`)[0];
+                popup_9b45d1dd73f873b2f13352b08140d5c5.setContent(html_41109faf77b66f88aebe24b7a8e72f98);
+            
+        
+
+        marker_d4e9e3ebc6cdfd1fed85f55a972ca9c9.bindPopup(popup_9b45d1dd73f873b2f13352b08140d5c5)
+        ;
+
+        
+    
+    
+            var marker_1245d4d5e01d064285052a85b0fb8c5a = L.marker(
+                [32.246148, -8.5283145],
+                {}
+            ).addTo(map_2f0d8f60208fe3f280788ca18b579c3b);
+        
+    
+            var icon_b0c65bc053c6dca46db44484fb4b9d18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1245d4d5e01d064285052a85b0fb8c5a.setIcon(icon_b0c65bc053c6dca46db44484fb4b9d18);
+        
+    
+        var popup_4a03feb9aee2226475a0daf9906c122d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afc4d37132f8a6ba65f6f72f9e10f59d = $(`<div id="html_afc4d37132f8a6ba65f6f72f9e10f59d" style="width: 100.0%; height: 100.0%;"><b>Pharmacie Louis Gentil صيدلية لويس جونتي</b><br></div>`)[0];
+                popup_4a03feb9aee2226475a0daf9906c122d.setContent(html_afc4d37132f8a6ba65f6f72f9e10f59d);
+            
+        
+
+        marker_1245d4d5e01d064285052a85b0fb8c5a.bindPopup(popup_4a03feb9aee2226475a0daf9906c122d)
+        ;
+
+        
+    
+    
+            var marker_ec67b79a75b416f83cd10030a0618cab = L.marker(
+                [32.2515064, -8.5342218],
+                {}
+            ).addTo(map_2f0d8f60208fe3f280788ca18b579c3b);
+        
+    
+            var icon_979d005d4b1ae015cc606c8ceb95963e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ec67b79a75b416f83cd10030a0618cab.setIcon(icon_979d005d4b1ae015cc606c8ceb95963e);
+        
+    
+        var popup_ba1d9dce44450b4dc0f64f64bbd6d99c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b63d9fbeb420fa3d5c807f1032120050 = $(`<div id="html_b63d9fbeb420fa3d5c807f1032120050" style="width: 100.0%; height: 100.0%;"><b>Pharmacie Najmi صيدلية نجمي</b><br></div>`)[0];
+                popup_ba1d9dce44450b4dc0f64f64bbd6d99c.setContent(html_b63d9fbeb420fa3d5c807f1032120050);
+            
+        
+
+        marker_ec67b79a75b416f83cd10030a0618cab.bindPopup(popup_ba1d9dce44450b4dc0f64f64bbd6d99c)
+        ;
+
+        
+    
+    
+            var marker_758bcafe6b6d55016e44e856dab8a9a3 = L.marker(
+                [32.2353451, -8.5328651],
+                {}
+            ).addTo(map_2f0d8f60208fe3f280788ca18b579c3b);
+        
+    
+            var icon_e48965f8eb2462bd42199ecbda6c0301 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_758bcafe6b6d55016e44e856dab8a9a3.setIcon(icon_e48965f8eb2462bd42199ecbda6c0301);
+        
+    
+        var popup_0456367a6fcf9ce26af96d1731de4d10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_850a61c675dec234d88e2256cf7159fa = $(`<div id="html_850a61c675dec234d88e2256cf7159fa" style="width: 100.0%; height: 100.0%;"><b>Pharmacie Al Amal صيدلية الأمل</b><br></div>`)[0];
+                popup_0456367a6fcf9ce26af96d1731de4d10.setContent(html_850a61c675dec234d88e2256cf7159fa);
+            
+        
+
+        marker_758bcafe6b6d55016e44e856dab8a9a3.bindPopup(popup_0456367a6fcf9ce26af96d1731de4d10)
+        ;
+
+        
+    
+    
+            var marker_677b3d15757dcf833e29348dd3a4b825 = L.marker(
+                [32.247460450000005, -8.53456296286046],
+                {}
+            ).addTo(map_2f0d8f60208fe3f280788ca18b579c3b);
+        
+    
+            var icon_09ae8bf68ef732909caf2602114626d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_677b3d15757dcf833e29348dd3a4b825.setIcon(icon_09ae8bf68ef732909caf2602114626d0);
+        
+    
+        var popup_f71d57950a236ca62f99c2b80606104e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1944be323f69f2b1ba0a196562cf0790 = $(`<div id="html_1944be323f69f2b1ba0a196562cf0790" style="width: 100.0%; height: 100.0%;"><b>Gare de Youssoufia</b><br></div>`)[0];
+                popup_f71d57950a236ca62f99c2b80606104e.setContent(html_1944be323f69f2b1ba0a196562cf0790);
+            
+        
+
+        marker_677b3d15757dcf833e29348dd3a4b825.bindPopup(popup_f71d57950a236ca62f99c2b80606104e)
+        ;
+
+        
+    
+</script>
+</html>
